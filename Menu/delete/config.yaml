@@ -1,0 +1,15 @@
+region: us-west-2
+
+function_name: deletefunction
+handler: service.handler
+role: pizzarole
+description: My first lambda delete function
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: 12345
+aws_secret_access_key: 12345
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512
